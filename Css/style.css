@@ -1,0 +1,22 @@
+/* Custom CSS for the navigation bar */
+
+/* Custom CSS for the carousel and footer */
+.carousel-item img {
+
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Add space between navbar and welcome section */
+#information {
+  margin-top: 70px; /* Adjust the margin-top value as needed */
+}

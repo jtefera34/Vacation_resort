@@ -1,0 +1,48 @@
+*{
+  margin:0px;
+  padding: 0px;
+  font-family:century;
+}
+header {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/Camp_fire.jpg"); /* Adjust the URL relative to your CSS file */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+
+ul{
+  float :right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin-right: 60px;
+  font-size: 17px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color : white;
+  padding:5px 20px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  }
+
+  ul li a:hover{
+    background-color:white;
+    color :black;
+  }
+  ul li.active a{
+    background-color: white;
+    color:black;
+  }
+  .logo img{
+    float :left;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+  }

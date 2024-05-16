@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container1 {
+  background-image: url('images\Background_images.jpg');
+  max-width: 600px;
+  margin: 50px auto;
+  
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}
+
+.result {
+  margin-top: 30px;
+  border-top: 1px solid #ced4da;
+  padding-top: 20px;
+}
+
+.result h2 {
+  margin-bottom: 20px;
+}
+
+.result p {
+  font-size: 18px;
+}
